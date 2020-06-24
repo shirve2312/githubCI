@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/planitnerdnew",
+          "awslogs-group": "/ecs/newnew",
           "awslogs-region": "us-west-2",
           "awslogs-stream-prefix": "ecs"
         }
@@ -37,7 +37,7 @@
       "memoryReservation": 512,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "336795466048.dkr.ecr.us-west-2.amazonaws.com/planitnerd:latest",
+      "image": "336795466048.dkr.ecr.us-west-2.amazonaws.com/palnitnerdnew:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -54,7 +54,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "planitnerdnew"
+      "name": "newnew"
     }
   ],
   "placementConstraints": [],
@@ -64,8 +64,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-west-2:336795466048:task-definition/planitnerdnew:1",
-  "family": "planitnerdnew",
+  "taskDefinitionArn": "arn:aws:ecs:us-west-2:336795466048:task-definition/newnew:1",
+  "family": "newnew",
   "requiresAttributes": [
     {
       "targetId": null,
