@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/planitnerd",
+          "awslogs-group": "/ecs/planitnerdnew",
           "awslogs-region": "us-west-2",
           "awslogs-stream-prefix": "ecs"
         }
@@ -54,7 +54,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "planitnerd"
+      "name": "planitnerdnew"
     }
   ],
   "placementConstraints": [],
@@ -64,8 +64,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-west-2:336795466048:task-definition/planitnerd:2",
-  "family": "planitnerd",
+  "taskDefinitionArn": "arn:aws:ecs:us-west-2:336795466048:task-definition/planitnerdnew:1",
+  "family": "planitnerdnew",
   "requiresAttributes": [
     {
       "targetId": null,
@@ -122,7 +122,7 @@
   ],
   "networkMode": "awsvpc",
   "cpu": "512",
-  "revision": 2,
+  "revision": 1,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
