@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/newnew",
+          "awslogs-group": "/ecs/new2",
           "awslogs-region": "us-west-2",
           "awslogs-stream-prefix": "ecs"
         }
@@ -54,7 +54,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "newnew"
+      "name": "new2"
     }
   ],
   "placementConstraints": [],
@@ -64,8 +64,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-west-2:336795466048:task-definition/newnew:1",
-  "family": "newnew",
+  "taskDefinitionArn": "arn:aws:ecs:us-west-2:336795466048:task-definition/new2:1",
+  "family": "new2",
   "requiresAttributes": [
     {
       "targetId": null,
